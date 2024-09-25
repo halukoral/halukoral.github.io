@@ -6,7 +6,7 @@ header:
   teaser: assets/images/Marketplace/Arcade/TetY/1.png
 sidebar:
   - title: "Arcade Game: TetY"
-    image: assets/images/Marketplace/Arcade/TetY/1.png
+    image: assets/images/Marketplace/Arcade/TetY/Marketplace-Thumbnail.png
     image_alt: "TetY"
     text: "Number of C++ Classes : 5"
 gallery:

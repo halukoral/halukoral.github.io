@@ -2,11 +2,11 @@
 title: "Laser System (C++)"
 excerpt: "Laser system is completely built using C++ and Niagara."
 header:
-  image: 
+  image:  
   teaser: assets/images/Marketplace/Laser/1.png
 sidebar:
   - title: "Laser System"
-    image: assets/images/Marketplace/Laser/1.png
+    image: assets/images/Marketplace/Laser/Marketplace-Thumbnail.png
     image_alt: "Laser System"
     text: "Number of C++ Classes : 2"
 gallery:

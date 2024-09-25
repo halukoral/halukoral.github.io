@@ -2,11 +2,11 @@
 title: "Compass System (C++)"
 excerpt: "Compass system is completely built using C++."
 header:
-  image: 
+  image:  
   teaser: assets/images/Marketplace/Compass/0.png
 sidebar:
   - title: "Compass System"
-    image: assets/images/Marketplace/Compass/0.png
+    image: assets/images/Marketplace/Compass/Marketplace-Thumbnail.png
     image_alt: "Compass System"
     text: "Number of C++ Classes : 2"
 gallery:
@@ -24,8 +24,6 @@ gallery:
     image_path: assets/images/Marketplace/Compass/5.png
   - url: assets/images/Marketplace/Compass/6.png
     image_path: assets/images/Marketplace/Compass/6.png
-  - url: assets/images/Marketplace/Compass/7.png
-    image_path: assets/images/Marketplace/Compass/7.png
   - url: assets/images/Marketplace/Compass/8.png
     image_path: assets/images/Marketplace/Compass/8.png
   - url: assets/images/Marketplace/Compass/9.png
