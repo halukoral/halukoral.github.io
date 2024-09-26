@@ -114,24 +114,25 @@ author:
   name             : "Haluk Oral"
   avatar           : "/assets/images/me.jpeg"
   bio              : "C++ Programmer, Unreal Engine Developer, Gamer."
-  location         : "Somewhere in the world"
   email            : "halukoral0@gmail.com"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+
+    - label: "UE 5 Marketplace"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.unrealengine.com/marketplace/en-US/profile/GenX+Games"
+
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/halukoral"
+      
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/halukoral/"
@@ -142,22 +143,14 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url:  "https://github.com/halukoral"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/halukoral/"
 
 # Reading Files
 include:
@@ -327,7 +320,8 @@ defaults:
       type: marketplace-assets
     values:
       layout: single
-      author_profile: false
+      classes: wide
+      author_profile: true
       share: true
   # _pages
   - scope:

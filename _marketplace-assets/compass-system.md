@@ -1,38 +1,47 @@
 ---
-title: "Compass System (C++)"
-excerpt: "Compass system is completely built using C++."
-header:
-  image:  
+classes: wide
+
+title: "UI Kit : Compass System (C++)"
+excerpt: "A C++ based compass system is a highly customizable compass UI designed to enhance player navigation in Unreal Engine projects."
+
+header: 
   teaser: assets/images/Marketplace/Compass/0.png
-sidebar:
-  - title: "Compass System"
-    image: assets/images/Marketplace/Compass/Marketplace-Thumbnail.png
-    image_alt: "Compass System"
-    text: "Number of C++ Classes : 2"
+
 gallery:
   - url: assets/images/Marketplace/Compass/0.png
     image_path: assets/images/Marketplace/Compass/0.png
+
   - url: assets/images/Marketplace/Compass/1.png
     image_path: assets/images/Marketplace/Compass/1.png
+
   - url: assets/images/Marketplace/Compass/2.png
     image_path: assets/images/Marketplace/Compass/2.png
+
   - url: assets/images/Marketplace/Compass/3.png
     image_path: assets/images/Marketplace/Compass/3.png
+
   - url: assets/images/Marketplace/Compass/4.png
     image_path: assets/images/Marketplace/Compass/4.png
+
   - url: assets/images/Marketplace/Compass/5.png
     image_path: assets/images/Marketplace/Compass/5.png
+
   - url: assets/images/Marketplace/Compass/6.png
     image_path: assets/images/Marketplace/Compass/6.png
+
   - url: assets/images/Marketplace/Compass/8.png
     image_path: assets/images/Marketplace/Compass/8.png
+
   - url: assets/images/Marketplace/Compass/9.png
     image_path: assets/images/Marketplace/Compass/9.png
+
 tags:
   - marketplace-assets
   - unrealengine
   - ue5
 ---
+
+## Video
 
 {% include video id="OKWOXDhjOFU" provider="youtube" %}
 
@@ -42,7 +51,20 @@ tags:
 
 ## Fully customizable Compass System
 
-The Compass system consists of 2 subsystems: 
+A C++ based compass system is a highly customizable compass UI designed to enhance player navigation in Unreal Engine projects.
+
+Key Features:
+
+* Toggleable
+  * The system allows you to toggle the compass on and off as needed.
+* Vertical position indicators
+  * Easily identify whether a location or object is above or below the player.
+* Reactive to mysteries 
+  * Reacts to hidden or mysterious areas, alerting players when they are near secrets or puzzles.
+* Friend and Enemy Indicators
+* Landmarks indicator
+* Quest indicator
+* Implemented in C++ for better performance.
 
 ### Simple :
 You can see the location of the actors and the directions. 
@@ -56,11 +78,13 @@ In addition to the simple version, you can also see whether the actors are above
   <a href="/assets/images/Marketplace/Compass/Complex.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Marketplace/Compass/Complex.png" alt=""></a>
   </figure> 
 
-### Easy to use :
-Just one component (BP_Compass) you need to add to your character and thats it.
+## How-To :
+Just one component (BP_Compass) you need to add to your character and that's all.
 
-### C++ :
-Implemented in C++ for better performance.
+<figure style="width: 300px" class="align-center">
+  <a href="/assets/images/Marketplace/Compass/T.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Marketplace/Compass/T.png" alt=""></a>
+  <figcaption></figcaption>
+</figure> 
 
 * You can modify all assets via DA_Widget_Simple and DA_Widget_Complex. (These files are derived from the UDataAsset class.)
   * DA_Widget_Simple
@@ -77,12 +101,4 @@ Implemented in C++ for better performance.
   <figure style="width: 500px" class="align-center">
   <a href="/assets/images/Marketplace/Compass/BP_Compass.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Marketplace/Compass/BP_Compass.png" alt=""></a>
   </figure> 
-
-## How-To :
-
-1.  Justt add BP_Compass to your character. Thats it. 
-
-    <figure style="width: 300px" class="align-center">
-      <a href="/assets/images/Marketplace/Compass/T.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Marketplace/Compass/T.png" alt=""></a>
-      <figcaption></figcaption>
-    </figure> 
+    

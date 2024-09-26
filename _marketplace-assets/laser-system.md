@@ -1,29 +1,29 @@
 ---
+classes: wide
+
 title: "Laser System (C++)"
 excerpt: "Laser system is completely built using C++ and Niagara."
+
 header:
-  image:  
   teaser: assets/images/Marketplace/Laser/1.png
-sidebar:
-  - title: "Laser System"
-    image: assets/images/Marketplace/Laser/Marketplace-Thumbnail.png
-    image_alt: "Laser System"
-    text: "Number of C++ Classes : 2"
+
 gallery:
   - url: assets/images/Marketplace/Laser/1.png
     image_path: assets/images/Marketplace/Laser/1.png
-    alt: "Laser System"
+    
   - url: assets/images/Marketplace/Laser/2.png
     image_path: assets/images/Marketplace/Laser/2.png
-    alt: "Reflectable Laser System"
+
   - url: assets/images/Marketplace/Laser/3.png
     image_path: assets/images/Marketplace/Laser/3.png
-    alt: "Triggerable Laser System"
+
 tags:
   - marketplace-assets
   - unrealengine
   - ue5
 ---
+
+## Video
 
 {% include video id="sGE26TYSnE0" provider="youtube" %}
 

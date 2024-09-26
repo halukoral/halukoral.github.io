@@ -1,14 +1,12 @@
 ---
+classes: wide
+
 title: "Arcade Game: TetY (C++)"
 excerpt: "TetY is an arcade game template."
+
 header:
-  image: 
   teaser: assets/images/Marketplace/Arcade/TetY/1.png
-sidebar:
-  - title: "Arcade Game: TetY"
-    image: assets/images/Marketplace/Arcade/TetY/Marketplace-Thumbnail.png
-    image_alt: "TetY"
-    text: "Number of C++ Classes : 5"
+
 gallery:
   - url: assets/images/Marketplace/Arcade/TetY/1.png
     image_path: assets/images/Marketplace/Arcade/TetY/1.png
@@ -34,6 +32,8 @@ tags:
   - unrealengine
   - ue5
 ---
+
+## Video
 
 {% include video id="dB0XDJYH9h4" provider="youtube" %}
 
