@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+icon: fa-solid fa-user-secret
+order: 6
 ---
 
 <figure class="text-center">
