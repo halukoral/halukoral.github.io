@@ -6,7 +6,7 @@ order: 4
 
 <figure class="text-center">
   <img src="/assets/img/me.jpeg" alt="That's me" class="img-fluid rounded shadow" width="600">
-  <figcaption class="mt-2 text-muted">Geliştirici modu 😎</figcaption>
+  <figcaption class="mt-2 text-muted">That's me 😎</figcaption>
 </figure>
 
 Hey there!
