@@ -5,6 +5,8 @@ description: It's time to share the notes I took while studying C++.
 categories: [programming, cpp]
 tags: [cpp, stl]     # TAG names should always be lowercase
 
+image:
+  path: /assets/img/logo/cpp.png
 ---
 
 <h1 style="text-align: center; font-size: 52px;">STL</h1>

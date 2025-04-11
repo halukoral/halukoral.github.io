@@ -5,6 +5,8 @@ description: C++ questions I encountered in interviews for game developer job po
 categories: [programming, cpp, interview questions]
 tags: [cpp]     # TAG names should always be lowercase
 
+image:
+  path: /assets/img/logo/cpp.png
 ---
 
 <h1 style="text-align: center; font-size: 52px;">C++ Interview Questions</h1>
