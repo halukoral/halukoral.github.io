@@ -1,5 +1,5 @@
 ---
-title: "C++ Notes : Translation Unit"
+title: "C++ Tips : Translation Unit"
 description: Translation unit, internal linkage, external linkage.
 
 categories: [programming, cpp]
@@ -11,12 +11,6 @@ image:
 
 <h1 style="text-align: center; font-size: 52px;">My C++ Notes</h1>
 <h2 style="text-align: center; font-size: 26px;">Translation Unit</h2>
-
----
-
->These are the notes I took when I was learning c++. I wanted to share them with you in case anyone wants to benefit from them. Also if you think there are any mistakes, please don't hesitate to contact me.
-{: .prompt-tip }
-
 
 ---
 ## Translation Unit

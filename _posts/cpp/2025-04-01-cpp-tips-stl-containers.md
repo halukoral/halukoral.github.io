@@ -1,5 +1,5 @@
 ---
-title: "STL"
+title: "STL Tips"
 description: Containers.
 
 categories: [programming, cpp]
@@ -14,9 +14,6 @@ image:
 ---
 
 STL stands for Standard Template Library in C++. A set of template-based classes and functions.
-
->This is the summary of my C++ notes. I haven't written all the details. We can think of these notes as a kind of mind-map.
-{: .prompt-tip }
 
 <figure class="align-center" style="text-align: center;">
     <a href="/assets/img/cpp/std_remove/1.png">

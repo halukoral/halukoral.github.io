@@ -1,5 +1,5 @@
 ---
-title: "STL : std::remove(_if)"
+title: "STL Tips : std::remove(_if)"
 description: "std::remove, std::remove_if, std::erase"
 
 categories: [programming, cpp]

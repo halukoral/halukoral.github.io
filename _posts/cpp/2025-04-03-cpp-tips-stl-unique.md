@@ -1,5 +1,5 @@
 ---
-title: "STL : std::unique"
+title: "STL Tips : std::unique"
 description: "std::unique remove consecutive duplicate elements from a range."
 
 categories: [programming, cpp]
