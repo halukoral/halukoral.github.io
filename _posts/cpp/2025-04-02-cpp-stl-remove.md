@@ -1,27 +1,21 @@
 ---
 title: "STL : std::remove(_if)"
-description: It's time to share the notes I took while studying C++.
+description: "std::remove, std::remove_if, std::erase"
 
 categories: [programming, cpp]
-tags: [cpp, stl]     # TAG names should always be lowercase
+tags: [cpp, stl, remove vowels]     # TAG names should always be lowercase
 
 image:
   path: /assets/img/logo/cpp.png
 ---
 
 <h1 style="text-align: center; font-size: 52px;">STL</h1>
-<h2 style="text-align: center; font-size: 26px;">std::remove / std::remove_if</h2>
+<h2 style="text-align: center; font-size: 26px;">std::remove / std::remove_if / std::erase</h2>
 ---
 
 ```cpp
 #include <algorithm>
 ```
-<figure class="align-center" style="text-align: center;">
-    <a href="/assets/img/cpp/std_remove/1.png">
-        <img src="/assets/img/cpp/std_remove/1.png"  width="700" alt="">
-    </a>
-</figure>
-
 ---
 ## Can STL Algorithms Add/Remove From Containers?
 

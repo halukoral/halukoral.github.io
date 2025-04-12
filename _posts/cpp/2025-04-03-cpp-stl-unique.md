@@ -1,6 +1,6 @@
 ---
 title: "STL : std::unique"
-description: It's time to share the notes I took while studying C++.
+description: "std::unique remove consecutive duplicate elements from a range."
 
 categories: [programming, cpp]
 tags: [cpp, stl]     # TAG names should always be lowercase
