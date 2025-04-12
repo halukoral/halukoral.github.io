@@ -146,3 +146,28 @@ rref&  r3 = n; // type of r3 is int&
 // && && -> &&
 rref&& r4 = 1; // type of r4 is int&&
 ```
+
+#### Why do we need it?
+
+* Reference collapsing enables perfect forwarding by preserving value categories.
+* T&& can be called with both lvalue and rvalue.
+
+```cpp
+template<typename T>
+void wrapper(T&& arg) 
+{
+    // T&& = forwarding reference
+    process(std::forward<T>(arg)); 
+}
+```
+<figure class="align-center" style="text-align: center;">
+  <a href="/assets/img/cpp/type_deduction/1.png">
+    <img src="/assets/img/cpp/type_deduction/1.png"  width="800" alt="">
+  </a>
+</figure>
+
+<figure class="align-center" style="text-align: center;">
+  <a href="/assets/img/cpp/type_deduction/2.png">
+    <img src="/assets/img/cpp/type_deduction/2.png"  width="800" alt="">
+  </a>
+</figure>
