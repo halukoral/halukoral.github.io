@@ -72,6 +72,8 @@ Then, it only loads the mip levels needed for the current view.
 But for high-res textures leads to significant performance and memory overhead.
 Also, even a small part of the object is visible, the entire object is considered visible. That means, all used materials to stream in.
 
+In contrast, the virtual texturing system only streams in parts of the textures that UE requires for it be visible.
+
 * Only visible parts are loaded
     * Unlike traditional methods where an entire texture is transferred from memory to the GPU, virtual texturing only streams in the sections that will actually appear on screen.
 
