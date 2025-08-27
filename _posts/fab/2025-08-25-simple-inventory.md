@@ -33,7 +33,14 @@ gallery:
 
 ## Fully customizable inventory System
 ---
+Features:
 
+*  Add item from level to the inventory
+*  Remove item from the inventory and place to the level
+*  Toggle Inventory menu
+*  You can drop partially items or drop all items at once
+*  You can store your items on chest.
+*  Inventory menu has 3d object viewer
 
 ## How-To:
 ---
@@ -68,5 +75,45 @@ gallery:
   <figure class="align-center" style="text-align: center;">
     <a href="/assets/img/fab/inventory/T/4.png">
       <img src="/assets/img/fab/inventory/T/4.png"  width="500" alt="">
+    </a>
+  </figure>
+
+### 4. To create a new item, you need to create data asset.
+
+  <figure class="align-center" style="text-align: center;">
+    <a href="/assets/img/fab/inventory/T/5.png">
+      <img src="/assets/img/fab/inventory/T/5.png"  width="500" alt="">
+    </a>
+  </figure>
+
+### 5. Select Item Definition for parent
+
+  <figure class="align-center" style="text-align: center;">
+    <a href="/assets/img/fab/inventory/T/6.png">
+      <img src="/assets/img/fab/inventory/T/6.png"  width="500" alt="">
+    </a>
+  </figure>
+
+### 6. Fill the sections
+
+  <figure class="align-center" style="text-align: center;">
+    <a href="/assets/img/fab/inventory/T/7.png">
+      <img src="/assets/img/fab/inventory/T/7.png"  width="500" alt="">
+    </a>
+  </figure>
+
+### 7. You can use this data asset inside of BP_Item
+
+  <figure class="align-center" style="text-align: center;">
+    <a href="/assets/img/fab/inventory/T/8.png">
+      <img src="/assets/img/fab/inventory/T/8.png"  width="500" alt="">
+    </a>
+  </figure>
+
+### 8. You can add item to the chest like this:
+
+  <figure class="align-center" style="text-align: center;">
+    <a href="/assets/img/fab/inventory/T/9.png">
+      <img src="/assets/img/fab/inventory/T/9.png"  width="500" alt="">
     </a>
   </figure>
