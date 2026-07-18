@@ -1,6 +1,6 @@
 ---
-title: "C++ Tips : std::vector"
-description: "std::vector"
+title: "C++ std::vector: Practical Notes and Pitfalls"
+description: Practical notes on std::vector, including capacity, iterators, invalidation, insertion, and performance behavior.
 
 categories: [programming, cpp]
 tags: [cpp, ctad, std::vector]

@@ -1,0 +1,30 @@
+<meta name="theme-color" content="#050816">
+<meta name="color-scheme" content="dark">
+{% if page.layout == 'post' %}
+  <meta property="article:author" content="{{ site.url }}/about/">
+  {% for tag in page.tags %}<meta property="article:tag" content="{{ tag | escape }}">{% endfor %}
+  {% if page.image %}<meta property="og:image:alt" content="{{ page.image.alt | default: page.title | escape }}">{% endif %}
+{% endif %}
+{% if site.social_preview_image and page.image == nil %}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Haluk Oral — C++, Unreal Engine, and gameplay systems engineering log">
+  <meta name="twitter:image:alt" content="Haluk Oral — C++, Unreal Engine, and gameplay systems engineering log">
+{% endif %}
+{% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+
+{% if page.layout == 'home' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": {{ site.social.name | jsonify }},
+  "url": "{{ site.url }}/about/",
+  "image": "{{ site.url }}{{ site.avatar }}",
+  "jobTitle": "Gameplay Developer",
+  "knowsAbout": ["C++", "Unreal Engine 5", "Gameplay Systems", "Game Engine Development"],
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>
+{% endif %}

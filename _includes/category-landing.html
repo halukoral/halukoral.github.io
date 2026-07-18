@@ -1,0 +1,29 @@
+{% assign category_posts = site.posts | where_exp: 'post', 'post.categories contains page.category' %}
+
+<section class="category-mission" aria-labelledby="category-title">
+  <p class="mission-status"><span aria-hidden="true"></span> {{ page.sector }} · Archive online</p>
+  <h1 id="category-title">{{ page.heading }}</h1>
+  <p>{{ page.description }}</p>
+  <div class="category-mission__meta">
+    <span>{{ category_posts | size }} field notes</span>
+    <span>Last update: {% if category_posts.first %}{{ category_posts.first.date | date: '%b %Y' }}{% else %}—{% endif %}</span>
+  </div>
+</section>
+
+<div class="category-log-list">
+  {% for post in category_posts %}
+    <article>
+      <span class="category-log-list__date">{{ post.date | date: '%Y.%m.%d' }}</span>
+      <div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        <div class="category-log-list__tags">
+          {% for tag in post.tags limit: 4 %}<span>{{ tag }}</span>{% endfor %}
+        </div>
+      </div>
+      <span class="category-log-list__arrow" aria-hidden="true">↗</span>
+    </article>
+  {% else %}
+    <p>No field notes in this sector yet.</p>
+  {% endfor %}
+</div>

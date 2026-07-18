@@ -1,6 +1,6 @@
 ---
-title: "C++ interviews questions - Part 01"
-description: C++ questions I encountered in interviews for game developer job postings.
+title: "C++ Interview Questions for Game Developers — Part 01"
+description: C++ interview questions and clear explanations based on real gameplay developer job interviews.
 
 categories: [programming, cpp, interview questions]
 tags: [cpp]     # TAG names should always be lowercase

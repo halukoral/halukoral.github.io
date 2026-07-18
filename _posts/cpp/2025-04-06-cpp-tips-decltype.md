@@ -1,6 +1,6 @@
 ---
-title: "C++ Tips : decltype"
-description: decltype.
+title: "C++ decltype Explained"
+description: Learn how decltype performs compile-time type deduction and how its rules differ for values and expressions.
 
 categories: [programming, cpp]
 tags: [cpp, type deduction, decltype]     # TAG names should always be lowercase

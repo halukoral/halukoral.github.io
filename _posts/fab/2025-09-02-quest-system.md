@@ -1,6 +1,6 @@
 ---
-title: "Game Kit: quest System (C++)"
-description: "A C++ based quest system with customizable feature."
+title: "Game Kit: Quest System (C++)"
+description: A customizable C++ quest system for Unreal Engine 5, designed for reusable and production-ready gameplay workflows.
 
 categories: [fab]
 tags: [ue5, fab, marketplace]     # TAG names should always be lowercase

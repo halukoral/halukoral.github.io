@@ -1,5 +1,7 @@
 ---
 # the default layout is 'page'
+title: About
+description: Meet Haluk Oral, a C++ and gameplay developer building Unreal Engine systems, reusable tools, and experimental engine technology.
 icon: fa-solid fa-user-secret
 order: 6
 ---

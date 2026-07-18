@@ -1,6 +1,6 @@
 ---
-title: "STL Tips"
-description: Containers.
+title: "C++ STL Containers: A Practical Overview"
+description: A practical overview of C++ Standard Library containers, their properties, and when to use each one.
 
 categories: [programming, cpp]
 tags: [cpp, stl, containers]     # TAG names should always be lowercase
