@@ -1,8 +1,2 @@
-:HL["/_next/static/chunks/0ie3kx~mtke_4.css","style"]
-:HL["/assets/img/cats/astronaut-cat-1.png","image"]
-:HL["/assets/img/cats/astronaut-cat-2.png","image"]
-:HL["/assets/img/cats/astronaut-cat-3.png","image"]
-:HL["/assets/img/cats/astronaut-cat-4.png","image"]
-:HL["/assets/img/cats/astronaut-cat-5.png","image"]
-:HL["/assets/img/cats/astronaut-cat-6.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cats","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Kkr-RXTn0IT0SlzbKf75e"}
+:HL["/_next/static/chunks/09nydkre8~2n3.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cats","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"w76fqTVMlYg4BcSy9C2Yl"}
