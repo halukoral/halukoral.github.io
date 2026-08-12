@@ -539,7 +539,7 @@ h1,h2,h3,p {
   letter-spacing:-.066em;
   max-width:760px;
   margin-bottom:28px;
-  font-size:clamp(46px,5.5vw,78px);
+  font-size:clamp(38px,5.5vw,64px);
   line-height:.96
 }
 
