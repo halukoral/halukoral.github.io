@@ -1054,6 +1054,76 @@ footer {
   font-size:40px
 }
 
+.related-post-grid {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin-top:30px;
+  display:grid
+}
+
+.next-post .related-post-link {
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:#0b0d12;
+  align-items:flex-start;
+  gap:10px;
+  padding:28px;
+  transition:transform .2s,border-color .2s;
+  display:flex;
+  flex-direction:column
+}
+
+.next-post .related-post-link:hover {
+  border-color:var(--cyan);
+  transform:translateY(-3px)
+}
+
+.related-post-link>span {
+  color:var(--cyan);
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  font-size:11px
+}
+
+.next-post .related-post-link strong {
+  letter-spacing:-.03em;
+  font-size:clamp(24px,3vw,34px);
+  line-height:1.08
+}
+
+.related-post-link small {
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.6
+}
+
+.related-post-actions {
+  border-top:1px solid var(--line);
+  gap:24px;
+  margin-top:28px;
+  padding-top:22px;
+  display:flex;
+  flex-wrap:wrap
+}
+
+.next-post .related-post-actions a {
+  color:var(--muted);
+  justify-content:flex-start;
+  gap:8px;
+  font-size:14px
+}
+
+.next-post .related-post-actions a>span {
+  color:var(--cyan);
+  font-size:18px
+}
+
+@media (max-width:700px) {
+  .related-post-grid {
+    grid-template-columns:1fr
+  }
+}
+
 .fab-hero {
   border-bottom:1px solid var(--line);
   padding:110px 0 90px

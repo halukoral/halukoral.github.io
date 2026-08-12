@@ -1,0 +1,1954 @@
+{
+  "/assets/img/cats/astronaut-cat-1.png": {
+    "width": 352,
+    "height": 367,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-1.png.640.webp",
+        "width": 352,
+        "height": 367
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cat-2.png": {
+    "width": 344,
+    "height": 364,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-2.png.640.webp",
+        "width": 344,
+        "height": 364
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cat-3.png": {
+    "width": 339,
+    "height": 371,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-3.png.640.webp",
+        "width": 339,
+        "height": 371
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cat-4.png": {
+    "width": 335,
+    "height": 368,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-4.png.640.webp",
+        "width": 335,
+        "height": 368
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cat-5.png": {
+    "width": 330,
+    "height": 365,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-5.png.640.webp",
+        "width": 330,
+        "height": 365
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cat-6.png": {
+    "width": 330,
+    "height": 367,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cat-6.png.640.webp",
+        "width": 330,
+        "height": 367
+      }
+    ]
+  },
+  "/assets/img/cats/astronaut-cats.png": {
+    "width": 2172,
+    "height": 724,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cats.png.640.webp",
+        "width": 640,
+        "height": 213
+      },
+      {
+        "src": "/assets/img/optimized/cats/astronaut-cats.png.1280.webp",
+        "width": 1280,
+        "height": 427
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-01/1.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/1.jpg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/1.jpg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-01/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-01/3.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/3.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/3.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-01/4.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/4.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/4.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-01/5.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/5.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-01/5.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/1.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/1.jpg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/1.jpg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/3.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/3.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/3.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/4.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/4.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/4.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/5.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/5.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/5.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-02/6.jpeg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/6.jpeg.640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-02/6.jpeg.1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-03/1.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/1.jpg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/1.jpg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-03/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-03/3.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/3.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/3.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-03/4.jpeg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/4.jpeg.640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/4.jpeg.1280.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-03/5.jpeg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/5.jpeg.640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-03/5.jpeg.1280.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-04/1.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/1.jpg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/1.jpg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-04/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-04/3.jpeg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/3.jpeg.640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/3.jpeg.1280.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-04/4.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/4.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/4.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-04/5.jpeg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/5.jpeg.640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-04/5.jpeg.1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-05/1.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/1.jpg.640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/1.jpg.1280.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-05/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-05/3.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/3.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/3.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-05/4.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/4.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/4.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-05/5.jpeg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/5.jpeg.640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-05/5.jpeg.1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/1.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/1.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/1.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/2.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/2.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/2.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/3.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/3.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/3.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/4.jpeg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/4.jpeg.640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/4.jpeg.1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/5.jpeg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/5.jpeg.640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/5.jpeg.1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/6.jpeg": {
+    "width": 899,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/6.jpeg.640.webp",
+        "width": 640,
+        "height": 1139
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/6.jpeg.1280.webp",
+        "width": 899,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/cats/profiles/crew-06/7.jpeg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/7.jpeg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/cats/profiles/crew-06/7.jpeg.1280.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/1.png": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/2.png": {
+    "width": 1461,
+    "height": 1423,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/2.png.640.webp",
+        "width": 640,
+        "height": 623
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/2.png.1280.webp",
+        "width": 1280,
+        "height": 1247
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/T/1.png": {
+    "width": 1238,
+    "height": 443,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/1.png.640.webp",
+        "width": 640,
+        "height": 229
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/1.png.1280.webp",
+        "width": 1238,
+        "height": 443
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/T/2.png": {
+    "width": 1237,
+    "height": 387,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/2.png.640.webp",
+        "width": 640,
+        "height": 200
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/2.png.1280.webp",
+        "width": 1237,
+        "height": 387
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/T/3.png": {
+    "width": 766,
+    "height": 518,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/3.png.640.webp",
+        "width": 640,
+        "height": 433
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/3.png.1280.webp",
+        "width": 766,
+        "height": 518
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/SnakeY/T/4.png": {
+    "width": 768,
+    "height": 331,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/4.png.640.webp",
+        "width": 640,
+        "height": 276
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/SnakeY/T/4.png.1280.webp",
+        "width": 768,
+        "height": 331
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/1.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/1_T.png": {
+    "width": 576,
+    "height": 324,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/1_T.png.640.webp",
+        "width": 576,
+        "height": 324
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/2.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/2.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/2.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/2_T.png": {
+    "width": 576,
+    "height": 324,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/2_T.png.640.webp",
+        "width": 576,
+        "height": 324
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/3.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/3.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/3.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/3_T.png": {
+    "width": 576,
+    "height": 324,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/3_T.png.640.webp",
+        "width": 576,
+        "height": 324
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/4.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/4.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/4.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/5.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/5.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/5.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/6.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/6.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/6.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/Marketplace-Thumbnail.png": {
+    "width": 867,
+    "height": 1001,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/Marketplace-Thumbnail.png.640.webp",
+        "width": 640,
+        "height": 739
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/Marketplace-Thumbnail.png.1280.webp",
+        "width": 867,
+        "height": 1001
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/1.png": {
+    "width": 937,
+    "height": 312,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/1.png.640.webp",
+        "width": 640,
+        "height": 213
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/1.png.1280.webp",
+        "width": 937,
+        "height": 312
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/2.png": {
+    "width": 640,
+    "height": 166,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/2.png.640.webp",
+        "width": 640,
+        "height": 166
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/3.png": {
+    "width": 943,
+    "height": 172,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/3.png.640.webp",
+        "width": 640,
+        "height": 117
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/3.png.1280.webp",
+        "width": 943,
+        "height": 172
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/4.png": {
+    "width": 739,
+    "height": 486,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/4.png.640.webp",
+        "width": 640,
+        "height": 421
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/4.png.1280.webp",
+        "width": 739,
+        "height": 486
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/5.png": {
+    "width": 1437,
+    "height": 364,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/5.png.640.webp",
+        "width": 640,
+        "height": 162
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/5.png.1280.webp",
+        "width": 1280,
+        "height": 324
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/6.png": {
+    "width": 2551,
+    "height": 1444,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/6.png.640.webp",
+        "width": 640,
+        "height": 362
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/6.png.1280.webp",
+        "width": 1280,
+        "height": 725
+      }
+    ]
+  },
+  "/assets/img/fab/arcade/TetY/T/7.png": {
+    "width": 1570,
+    "height": 492,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/7.png.640.webp",
+        "width": 640,
+        "height": 201
+      },
+      {
+        "src": "/assets/img/optimized/fab/arcade/TetY/T/7.png.1280.webp",
+        "width": 1280,
+        "height": 401
+      }
+    ]
+  },
+  "/assets/img/fab/compass/0.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/0.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/0.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/1.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/2.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/2.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/2.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/3.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/3.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/3.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/4.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/4.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/4.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/5.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/5.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/5.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/6.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/6.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/6.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/7.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/7.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/7.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/8.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/8.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/8.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/9.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/9.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/9.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/compass/BP_Compass.png": {
+    "width": 944,
+    "height": 735,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/BP_Compass.png.640.webp",
+        "width": 640,
+        "height": 498
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/BP_Compass.png.1280.webp",
+        "width": 944,
+        "height": 735
+      }
+    ]
+  },
+  "/assets/img/fab/compass/Complex.png": {
+    "width": 1792,
+    "height": 142,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/Complex.png.640.webp",
+        "width": 640,
+        "height": 51
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/Complex.png.1280.webp",
+        "width": 1280,
+        "height": 101
+      }
+    ]
+  },
+  "/assets/img/fab/compass/DA_Widget_Complex.png": {
+    "width": 965,
+    "height": 1135,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/DA_Widget_Complex.png.640.webp",
+        "width": 640,
+        "height": 753
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/DA_Widget_Complex.png.1280.webp",
+        "width": 965,
+        "height": 1135
+      }
+    ]
+  },
+  "/assets/img/fab/compass/DA_Widget_Simple.png": {
+    "width": 1057,
+    "height": 1131,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/DA_Widget_Simple.png.640.webp",
+        "width": 640,
+        "height": 685
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/DA_Widget_Simple.png.1280.webp",
+        "width": 1057,
+        "height": 1131
+      }
+    ]
+  },
+  "/assets/img/fab/compass/Marketplace-Thumbnail.png": {
+    "width": 867,
+    "height": 1001,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/Marketplace-Thumbnail.png.640.webp",
+        "width": 640,
+        "height": 739
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/Marketplace-Thumbnail.png.1280.webp",
+        "width": 867,
+        "height": 1001
+      }
+    ]
+  },
+  "/assets/img/fab/compass/Simple.png": {
+    "width": 1859,
+    "height": 61,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/Simple.png.640.webp",
+        "width": 640,
+        "height": 21
+      },
+      {
+        "src": "/assets/img/optimized/fab/compass/Simple.png.1280.webp",
+        "width": 1280,
+        "height": 42
+      }
+    ]
+  },
+  "/assets/img/fab/compass/T.png": {
+    "width": 573,
+    "height": 326,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/compass/T.png.640.webp",
+        "width": 573,
+        "height": 326
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/1.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/2.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/2.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/2.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/3.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/3.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/3.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/4.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/4.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/4.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/5.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/5.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/5.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/1.png": {
+    "width": 1101,
+    "height": 348,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/1.png.640.webp",
+        "width": 640,
+        "height": 202
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/1.png.1280.webp",
+        "width": 1101,
+        "height": 348
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/2.png": {
+    "width": 379,
+    "height": 719,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/2.png.640.webp",
+        "width": 379,
+        "height": 719
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/3.png": {
+    "width": 1682,
+    "height": 482,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/3.png.640.webp",
+        "width": 640,
+        "height": 183
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/3.png.1280.webp",
+        "width": 1280,
+        "height": 367
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/4.png": {
+    "width": 946,
+    "height": 904,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/4.png.640.webp",
+        "width": 640,
+        "height": 612
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/4.png.1280.webp",
+        "width": 946,
+        "height": 904
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/5.png": {
+    "width": 1596,
+    "height": 991,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/5.png.640.webp",
+        "width": 640,
+        "height": 397
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/5.png.1280.webp",
+        "width": 1280,
+        "height": 795
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/6.png": {
+    "width": 780,
+    "height": 518,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/6.png.640.webp",
+        "width": 640,
+        "height": 425
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/6.png.1280.webp",
+        "width": 780,
+        "height": 518
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/7.png": {
+    "width": 1301,
+    "height": 1375,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/7.png.640.webp",
+        "width": 640,
+        "height": 676
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/7.png.1280.webp",
+        "width": 1280,
+        "height": 1353
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/8.png": {
+    "width": 2002,
+    "height": 1022,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/8.png.640.webp",
+        "width": 640,
+        "height": 327
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/8.png.1280.webp",
+        "width": 1280,
+        "height": 653
+      }
+    ]
+  },
+  "/assets/img/fab/inventory/T/9.png": {
+    "width": 3091,
+    "height": 1403,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/9.png.640.webp",
+        "width": 640,
+        "height": 290
+      },
+      {
+        "src": "/assets/img/optimized/fab/inventory/T/9.png.1280.webp",
+        "width": 1280,
+        "height": 581
+      }
+    ]
+  },
+  "/assets/img/fab/laser/1.png": {
+    "width": 2560,
+    "height": 1440,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/laser/2.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/2.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/2.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/laser/3.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/3.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/3.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/laser/Marketplace-Thumbnail.png": {
+    "width": 3000,
+    "height": 1800,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/Marketplace-Thumbnail.png.640.webp",
+        "width": 640,
+        "height": 384
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/Marketplace-Thumbnail.png.1280.webp",
+        "width": 1280,
+        "height": 768
+      }
+    ]
+  },
+  "/assets/img/fab/laser/T/1.jpg": {
+    "width": 462,
+    "height": 1012,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/T/1.jpg.640.webp",
+        "width": 462,
+        "height": 1012
+      }
+    ]
+  },
+  "/assets/img/fab/laser/T/2.jpg": {
+    "width": 1248,
+    "height": 1190,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/T/2.jpg.640.webp",
+        "width": 640,
+        "height": 610
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/T/2.jpg.1280.webp",
+        "width": 1248,
+        "height": 1190
+      }
+    ]
+  },
+  "/assets/img/fab/laser/T/3.jpg": {
+    "width": 943,
+    "height": 895,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/T/3.jpg.640.webp",
+        "width": 640,
+        "height": 607
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/T/3.jpg.1280.webp",
+        "width": 943,
+        "height": 895
+      }
+    ]
+  },
+  "/assets/img/fab/laser/T/4.jpg": {
+    "width": 756,
+    "height": 1596,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/laser/T/4.jpg.640.webp",
+        "width": 640,
+        "height": 1351
+      },
+      {
+        "src": "/assets/img/optimized/fab/laser/T/4.jpg.1280.webp",
+        "width": 756,
+        "height": 1596
+      }
+    ]
+  },
+  "/assets/img/fab/portal/1.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/1.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/1.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/portal/2.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/2.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/2.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/portal/3.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/3.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/3.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/portal/4.png": {
+    "width": 1920,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/4.png.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/4.png.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/1.png": {
+    "width": 1452,
+    "height": 84,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/1.png.640.webp",
+        "width": 640,
+        "height": 37
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/T/1.png.1280.webp",
+        "width": 1280,
+        "height": 74
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/2.png": {
+    "width": 1504,
+    "height": 186,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/2.png.640.webp",
+        "width": 640,
+        "height": 79
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/T/2.png.1280.webp",
+        "width": 1280,
+        "height": 158
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/3.png": {
+    "width": 448,
+    "height": 490,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/3.png.640.webp",
+        "width": 448,
+        "height": 490
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/4.png": {
+    "width": 465,
+    "height": 955,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/4.png.640.webp",
+        "width": 465,
+        "height": 955
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/5.png": {
+    "width": 456,
+    "height": 939,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/5.png.640.webp",
+        "width": 456,
+        "height": 939
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/6.png": {
+    "width": 817,
+    "height": 879,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/6.png.640.webp",
+        "width": 640,
+        "height": 689
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/T/6.png.1280.webp",
+        "width": 817,
+        "height": 879
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/7.png": {
+    "width": 858,
+    "height": 1117,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/7.png.640.webp",
+        "width": 640,
+        "height": 833
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/T/7.png.1280.webp",
+        "width": 858,
+        "height": 1117
+      }
+    ]
+  },
+  "/assets/img/fab/portal/T/8.png": {
+    "width": 709,
+    "height": 370,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/portal/T/8.png.640.webp",
+        "width": 640,
+        "height": 334
+      },
+      {
+        "src": "/assets/img/optimized/fab/portal/T/8.png.1280.webp",
+        "width": 709,
+        "height": 370
+      }
+    ]
+  },
+  "/assets/img/fab/quest/1.png": {
+    "width": 2444,
+    "height": 1503,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/1.png.640.webp",
+        "width": 640,
+        "height": 394
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/1.png.1280.webp",
+        "width": 1280,
+        "height": 787
+      }
+    ]
+  },
+  "/assets/img/fab/quest/2.png": {
+    "width": 3048,
+    "height": 1864,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/2.png.640.webp",
+        "width": 640,
+        "height": 391
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/2.png.1280.webp",
+        "width": 1280,
+        "height": 783
+      }
+    ]
+  },
+  "/assets/img/fab/quest/3.png": {
+    "width": 2442,
+    "height": 1496,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/3.png.640.webp",
+        "width": 640,
+        "height": 392
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/3.png.1280.webp",
+        "width": 1280,
+        "height": 784
+      }
+    ]
+  },
+  "/assets/img/fab/quest/4.png": {
+    "width": 3061,
+    "height": 1883,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/4.png.640.webp",
+        "width": 640,
+        "height": 394
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/4.png.1280.webp",
+        "width": 1280,
+        "height": 787
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/1.png": {
+    "width": 743,
+    "height": 386,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/1.png.640.webp",
+        "width": 640,
+        "height": 332
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/1.png.1280.webp",
+        "width": 743,
+        "height": 386
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/2.png": {
+    "width": 2505,
+    "height": 947,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/2.png.640.webp",
+        "width": 640,
+        "height": 242
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/2.png.1280.webp",
+        "width": 1280,
+        "height": 484
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/3.png": {
+    "width": 2629,
+    "height": 1347,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/3.png.640.webp",
+        "width": 640,
+        "height": 328
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/3.png.1280.webp",
+        "width": 1280,
+        "height": 656
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/4.png": {
+    "width": 2718,
+    "height": 1154,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/4.png.640.webp",
+        "width": 640,
+        "height": 272
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/4.png.1280.webp",
+        "width": 1280,
+        "height": 543
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/5.png": {
+    "width": 2966,
+    "height": 1215,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/5.png.640.webp",
+        "width": 640,
+        "height": 262
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/5.png.1280.webp",
+        "width": 1280,
+        "height": 524
+      }
+    ]
+  },
+  "/assets/img/fab/quest/T/6.png": {
+    "width": 1709,
+    "height": 1297,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/fab/quest/T/6.png.640.webp",
+        "width": 640,
+        "height": 486
+      },
+      {
+        "src": "/assets/img/optimized/fab/quest/T/6.png.1280.webp",
+        "width": 1280,
+        "height": 971
+      }
+    ]
+  },
+  "/assets/img/hasterza-showcase.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/hasterza-showcase.jpg.640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/assets/img/optimized/hasterza-showcase.jpg.1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "/assets/img/hasterza-showcase.png": {
+    "width": 3840,
+    "height": 2088,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/hasterza-showcase.png.640.webp",
+        "width": 640,
+        "height": 348
+      },
+      {
+        "src": "/assets/img/optimized/hasterza-showcase.png.1280.webp",
+        "width": 1280,
+        "height": 696
+      }
+    ]
+  },
+  "/assets/img/logo/fab.png": {
+    "width": 1200,
+    "height": 630,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/logo/fab.png.640.webp",
+        "width": 640,
+        "height": 336
+      },
+      {
+        "src": "/assets/img/optimized/logo/fab.png.1280.webp",
+        "width": 1200,
+        "height": 630
+      }
+    ]
+  }
+}

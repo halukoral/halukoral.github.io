@@ -32,6 +32,18 @@ npm run build
 
 Yayınlanacak temiz site `dist/` klasöründe oluşur. Bu klasör kaynak değildir; doğrudan düzenlemeyin.
 
+Build işlemi sayfalara canonical URL, Open Graph/Twitter etiketleri ve JSON-LD yapılandırılmış veri ekler; ayrıca `robots.txt` ile `sitemap.xml` dosyalarını otomatik üretir. Sayfa bazlı SEO verileri `scripts/build.mjs` içindeki `seoPages` tablosunda tutulur.
+
+## Görsel optimizasyonu
+
+`assets/img/` altına yeni bir JPG veya PNG ekledikten sonra responsive WebP türevlerini ve görsel manifestini yenileyin:
+
+```powershell
+python scripts/optimize-images.py
+```
+
+Orijinal dosyalar yüksek çözünürlüklü galeri hedefleri olarak korunur. Build, sayfa içindeki görseller için optimize edilmiş 640/1280 px WebP dosyalarını, `srcset` bilgisini ve gerçek en-boy ölçülerini otomatik kullanır.
+
 ## Yayınlama
 
 `main` dalına gönderilen her değişiklik GitHub Actions tarafından derlenir ve GitHub Pages'a yayınlanır.

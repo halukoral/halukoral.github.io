@@ -249,7 +249,7 @@ if (space && stage && profileSlot) {
     panel.setAttribute("aria-live", "polite");
     panel.innerHTML = `
       <div class="cat-profile-gallery">
-        <img class="cat-profile-image" src="${profile.images[0].src}" alt="${profile.images[0].alt}, Crew ${crew}">
+        <img class="cat-profile-image" src="${profile.images[0].src}"${profile.images[0].srcset ? ` srcset="${profile.images[0].srcset}" sizes="(max-width: 900px) 100vw, 50vw"` : ""}${profile.images[0].width ? ` width="${profile.images[0].width}" height="${profile.images[0].height}"` : ""} alt="${profile.images[0].alt}, Crew ${crew}" decoding="async">
         ${hasMultipleImages ? `
           <button type="button" class="cat-gallery-button cat-gallery-previous" aria-label="Previous image">‹</button>
           <button type="button" class="cat-gallery-button cat-gallery-next" aria-label="Next image">›</button>
@@ -302,8 +302,15 @@ if (space && stage && profileSlot) {
       const count = panel.querySelector(".cat-gallery-count");
       const showImage = nextIndex => {
         imageIndex = (nextIndex + profile.images.length) % profile.images.length;
-        profileImage.src = profile.images[imageIndex].src;
-        profileImage.alt = `${profile.images[imageIndex].alt}, Crew ${crew}, image ${imageIndex + 1} of ${profile.images.length}`;
+        const image = profile.images[imageIndex];
+        profileImage.src = image.src;
+        if (image.srcset) profileImage.srcset = image.srcset;
+        else profileImage.removeAttribute("srcset");
+        if (image.width) {
+          profileImage.width = image.width;
+          profileImage.height = image.height;
+        }
+        profileImage.alt = `${image.alt}, Crew ${crew}, image ${imageIndex + 1} of ${profile.images.length}`;
         profileImage.setAttribute("aria-label", `Enlarge image ${imageIndex + 1} of ${profile.images.length} of ${profile.name}`);
         count.textContent = `${imageIndex + 1} / ${profile.images.length}`;
       };
