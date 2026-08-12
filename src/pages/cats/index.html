@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cats · Haluk Oral</title>
-  <meta name="description" content="Haluk&#x27;s cats, reporting for duty in orbit."/>
+  <title>Purrbit: A Cats in Space Browser Game · Haluk Oral</title>
+  <meta name="description" content="Play Purrbit, a fast browser game starring Haluk Oral&#x27;s six-cat space crew, or meet each cat through their orbital profile."/>
   <meta property="og:title" content="Haluk Oral"/>
   <meta property="og:description" content="Thoughts, work, and everything I learn along the way."/>
   <meta property="og:locale" content="en_US"/>
@@ -20,8 +20,10 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles/site.css">
   <link rel="stylesheet" href="/styles/cat-profiles.css">
+  <link rel="stylesheet" href="/styles/cat-game.css">
   <script src="/scripts/cat-profile-content.js" defer></script>
   <script src="/scripts/cats.js" defer></script>
+  <script src="/scripts/cat-game.js" defer></script>
 </head>
 <body>
 <main class="cats-page" id="top">
@@ -60,10 +62,16 @@
       <p class="cats-intro">
         Six curious explorers. One very important mission: drifting through space and looking magnificent.
       </p>
-      <p class="cats-profile-hint">
-        <span aria-hidden="true">+</span>
-        Click a cat to open their profile
-      </p>
+      <div class="cats-actions">
+        <button class="cat-game-launch" type="button">
+          <span aria-hidden="true">▶</span>
+          Play mission
+        </button>
+        <p class="cats-profile-hint">
+          <span aria-hidden="true">+</span>
+          Click a cat to open their profile
+        </p>
+      </div>
     </div>
     <div class="cat-stage">
       <div class="cat-space" aria-label="Six astronaut cat portraits floating randomly in every direction">

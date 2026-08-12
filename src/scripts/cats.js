@@ -226,6 +226,8 @@ if (space && stage && profileSlot) {
   }
 
   function openProfile(cat, index) {
+    if (space.classList.contains("is-game-active")) return;
+
     if (activeCat === cat) {
       closeProfile();
       return;
@@ -352,4 +354,18 @@ if (space && stage && profileSlot) {
 
   spaceObserver.observe(space);
   layoutCatsInitially();
+
+  window.CAT_CREW_STAGE = {
+    pause() {
+      closeProfile();
+      resizeSnapshot = null;
+      window.clearTimeout(resizeTimer);
+      return stopCatMotion();
+    },
+    resume() {
+      if (reducedMotion) return;
+      const points = stopCatMotion();
+      cats.forEach((cat, index) => animateCat(cat, points[index]));
+    }
+  };
 }

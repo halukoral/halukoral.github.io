@@ -28,12 +28,12 @@ const seoPages = {
     keywords: ["Unreal Engine C++", "UE5 gameplay systems", "FAB marketplace", "game development tools"]
   },
   "/cats/": {
-    title: "Cats in Space · Haluk Oral",
-    description: "Meet Haluk Oral's six cats, reporting for duty as a curious crew of space explorers.",
+    title: "Purrbit: A Cats in Space Browser Game · Haluk Oral",
+    description: "Play Purrbit, a fast browser game starring Haluk Oral's six-cat space crew, or meet each cat through their orbital profile.",
     image: "/assets/img/cats/astronaut-cats.png",
     schemaType: "WebPage",
-    lastModified: "2026-08-12",
-    keywords: ["Haluk Oral", "cats in space"]
+    lastModified: "2026-08-13",
+    keywords: ["Haluk Oral", "Purrbit", "cats in space", "browser game"]
   },
   "/writing/less-but-better/": {
     title: "Less, but better · Haluk Oral",
