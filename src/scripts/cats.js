@@ -62,7 +62,6 @@ if (space) {
   const animations = new Set();
   let activeCat = null;
   let panel = null;
-  let panelFrame = null;
 
   function bounds(cat) {
     return {
@@ -122,31 +121,19 @@ if (space) {
   }
 
   function positionPanel() {
-    if (!panel || !activeCat) return;
+    if (!panel) return;
 
-    const container = space.getBoundingClientRect();
-    const cat = activeCat.getBoundingClientRect();
-    const gap = 14;
-    let left = cat.right - container.left + gap;
-    let top = cat.top - container.top + (cat.height - panel.offsetHeight) / 2;
-
-    if (left + panel.offsetWidth > space.clientWidth - 10) {
-      left = cat.left - container.left - panel.offsetWidth - gap;
-    }
-
-    left = Math.max(10, Math.min(space.clientWidth - panel.offsetWidth - 10, left));
-    top = Math.max(10, Math.min(space.clientHeight - panel.offsetHeight - 10, top));
+    const margin = window.innerWidth <= 620 ? 10 : 16;
+    const left = Math.max(margin, space.clientWidth - panel.offsetWidth - margin);
+    const top = margin;
     panel.style.transform = `translate3d(${left}px, ${top}px, 0)`;
-    panelFrame = requestAnimationFrame(positionPanel);
   }
 
   function closeProfile() {
     if (activeCat) activeCat.setAttribute("aria-expanded", "false");
-    if (panelFrame) cancelAnimationFrame(panelFrame);
     panel?.remove();
     activeCat = null;
     panel = null;
-    panelFrame = null;
   }
 
   function openProfile(cat, index) {
@@ -198,4 +185,6 @@ if (space) {
   document.addEventListener("keydown", event => {
     if (event.key === "Escape") closeProfile();
   });
+
+  window.addEventListener("resize", positionPanel);
 }
