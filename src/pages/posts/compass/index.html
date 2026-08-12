@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UI Kit: Compass System (C++) · Haluk / Notes</title>
+  <meta name="description" content="A C++ based compass system."/>
+  <meta property="og:title" content="Haluk / Notes"/>
+  <meta property="og:description" content="Thoughts, work, and everything I learn along the way."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:image" content="https://halukoral.github.io/og-en.png"/>
+  <meta property="og:image:width" content="1728"/>
+  <meta property="og:image:height" content="900"/>
+  <meta property="og:image:alt" content="Haluk / Notes"/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Haluk / Notes"/>
+  <meta name="twitter:description" content="Thoughts, work, and everything I learn along the way."/>
+  <meta name="twitter:image" content="https://halukoral.github.io/og-en.png"/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles/site.css">
+
+</head>
+<body>
+<main class="fab-article-page">
+  <header class="site-header">
+    <a class="brand" aria-label="Haluk Notes home" href="/">
+      <span class="brand-mark" aria-hidden="true">
+        H
+      </span>
+      <span>
+        HALUK
+        <em>
+          / NOTES
+        </em>
+      </span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="/#writing">
+        Writing
+      </a>
+      <a href="/#about">
+        About
+      </a>
+      <a href="/#contact">
+        Contact
+      </a>
+      <a aria-current="page" href="/fab/">
+        FAB
+      </a>
+      <a href="/#hasterza">
+        Hasterza
+      </a>
+      <a class="nav-button cats-nav-button" href="/cats/">
+        Cats
+      </a>
+    </nav>
+  </header>
+  <article class="fab-article-shell section-shell">
+    <a class="back-link" href="/fab/">
+      ← FAB archive
+    </a>
+    <header class="fab-article-hero">
+      <div class="article-meta">
+        <span>
+          FAB
+        </span>
+        <span>
+          Apr 1, 2025
+        </span>
+      </div>
+      <h1>
+        UI Kit: Compass System (C++)
+      </h1>
+      <p>
+        A C++ based compass system.
+      </p>
+    </header>
+    <div class="fab-article-layout">
+      <div class="fab-content">
+        <div class="fab-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/OKWOXDhjOFU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="">
+          </iframe>
+        </div>
+        <h2 id="screenshots">
+          Screenshots
+        </h2>
+        <div class="fab-gallery">
+          <a href="/assets/img/fab/compass/0.png">
+            <img src="/assets/img/fab/compass/0.png" alt="Screenshot 1" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/1.png">
+            <img src="/assets/img/fab/compass/1.png" alt="Screenshot 2" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/2.png">
+            <img src="/assets/img/fab/compass/2.png" alt="Screenshot 3" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/3.png">
+            <img src="/assets/img/fab/compass/3.png" alt="Screenshot 4" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/4.png">
+            <img src="/assets/img/fab/compass/4.png" alt="Screenshot 5" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/5.png">
+            <img src="/assets/img/fab/compass/5.png" alt="Screenshot 6" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/6.png">
+            <img src="/assets/img/fab/compass/6.png" alt="Screenshot 7" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/8.png">
+            <img src="/assets/img/fab/compass/8.png" alt="Screenshot 8" loading="lazy"/>
+          </a>
+          <a href="/assets/img/fab/compass/9.png">
+            <img src="/assets/img/fab/compass/9.png" alt="Screenshot 9" loading="lazy"/>
+          </a>
+        </div>
+        <h2 id="fully-customizable-compass-system">
+          Fully customizable Compass System
+        </h2>
+        <p>
+          A highly customizable C++ compass UI designed to enhance player navigation in Unreal Engine projects.
+        </p>
+        <p>
+          Key features:
+        </p>
+        <ul>
+          <li>
+            Toggle the compass on and off
+          </li>
+          <li>
+            Vertical position indicators
+          </li>
+          <li>
+            Reactions to hidden or mysterious areas
+          </li>
+          <li>
+            Friend and enemy indicators
+          </li>
+          <li>
+            Landmark indicators
+          </li>
+          <li>
+            Quest indicators
+          </li>
+          <li>
+            Implemented in C++ for better performance
+          </li>
+        </ul>
+        <h3 id="simple">
+          Simple
+        </h3>
+        <p>
+          See actor locations and directions.
+        </p>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/Simple.png">
+            <img src="/assets/img/fab/compass/Simple.png" alt="Simple compass" loading="lazy"/>
+          </a>
+        </figure>
+        <h3 id="complex">
+          Complex
+        </h3>
+        <p>
+          In addition to the simple version, see whether actors are above or below you and how far away they are.
+        </p>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/Complex.png">
+            <img src="/assets/img/fab/compass/Complex.png" alt="Complex compass" loading="lazy"/>
+          </a>
+        </figure>
+        <h2 id="how-to">
+          How-To
+        </h2>
+        <p>
+          Add the single BP_Compass component to your character.
+        </p>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/T.png">
+            <img src="/assets/img/fab/compass/T.png" alt="BP Compass component" loading="lazy"/>
+          </a>
+        </figure>
+        <p>
+          Modify assets through DA_Widget_Simple and DA_Widget_Complex. These files are derived from the UDataAsset class.
+        </p>
+        <h3 id="da-widget-simple">
+          DA_Widget_Simple
+        </h3>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/DA_Widget_Simple.png">
+            <img src="/assets/img/fab/compass/DA_Widget_Simple.png" alt="Simple widget data asset" loading="lazy"/>
+          </a>
+        </figure>
+        <h3 id="da-widget-complex">
+          DA_Widget_Complex
+        </h3>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/DA_Widget_Complex.png">
+            <img src="/assets/img/fab/compass/DA_Widget_Complex.png" alt="Complex widget data asset" loading="lazy"/>
+          </a>
+        </figure>
+        <h3 id="modify-compass-attributes-in-bp-compass">
+          Modify compass attributes in BP_Compass
+        </h3>
+        <figure class="fab-article-image">
+          <a href="/assets/img/fab/compass/BP_Compass.png">
+            <img src="/assets/img/fab/compass/BP_Compass.png" alt="BP Compass attributes" loading="lazy"/>
+          </a>
+        </figure>
+      </div>
+      <aside class="fab-contents">
+        <span>
+          CONTENTS
+        </span>
+        <a href="#screenshots" class="">
+          Screenshots
+        </a>
+        <a href="#fully-customizable-compass-system" class="">
+          Fully customizable Compass System
+        </a>
+        <a href="#simple" class="nested">
+          Simple
+        </a>
+        <a href="#complex" class="nested">
+          Complex
+        </a>
+        <a href="#how-to" class="">
+          How-To
+        </a>
+        <a href="#da-widget-simple" class="nested">
+          DA_Widget_Simple
+        </a>
+        <a href="#da-widget-complex" class="nested">
+          DA_Widget_Complex
+        </a>
+        <a href="#modify-compass-attributes-in-bp-compass" class="nested">
+          Modify compass attributes in BP_Compass
+        </a>
+      </aside>
+    </div>
+  </article>
+  <section class="next-post section-shell">
+    <p class="eyebrow">
+      <span>
+      </span>
+      More systems
+    </p>
+    <a href="/fab/">
+      <strong>
+        Back to the FAB archive
+      </strong>
+      <span aria-hidden="true">
+        ↗
+      </span>
+    </a>
+  </section>
+  <footer>
+    <a class="brand" href="/">
+      <span class="brand-mark">
+        H
+      </span>
+      <span>
+        HALUK
+        <em>
+          / NOTES
+        </em>
+      </span>
+    </a>
+    <p>
+      © 2026 · Built with curiosity.
+    </p>
+  </footer>
+</main>
+</body>
+</html>

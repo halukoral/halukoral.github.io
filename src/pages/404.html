@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — Haluk / Notes</title>
+  <meta name="description" content="The requested page could not be found.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles/site.css">
+  <style>
+    .not-found {
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+      padding: 32px;
+      text-align: center;
+    }
+
+    .not-found strong {
+      display: block;
+      color: var(--cyan);
+      letter-spacing: 0.18em;
+      font: 12px/1 monospace;
+    }
+
+    .not-found h1 {
+      margin: 24px 0 18px;
+      letter-spacing: -0.055em;
+      font-size: clamp(52px, 10vw, 108px);
+      line-height: 0.95;
+    }
+
+    .not-found p {
+      color: var(--muted);
+      margin-bottom: 34px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main class="not-found">
+    <div>
+      <strong>ERROR / 404</strong>
+      <h1>Page not found.</h1>
+      <p>The page may have moved, or the link may be out of date.</p>
+      <a class="primary-button" href="/">Return home <span aria-hidden="true">→</span></a>
+    </div>
+  </main>
+</body>
+</html>

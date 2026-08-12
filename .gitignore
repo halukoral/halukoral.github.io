@@ -1,6 +1,7 @@
 # NPM dependencies
 node_modules
 package-lock.json
+dist
 
 # IDE configurations
 .idea
