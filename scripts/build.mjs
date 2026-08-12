@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const output = path.join(root, "dist");
+const supportedCatImageExtensions = new Set([".avif", ".gif", ".jpeg", ".jpg", ".png", ".webp"]);
 
 async function exists(target) {
   try {
@@ -78,6 +79,26 @@ function parseCatProfiles(markdown) {
   return profiles;
 }
 
+async function attachCatProfileImages(profiles) {
+  const profilesDirectory = path.join(root, "assets", "img", "cats", "profiles");
+
+  return Promise.all(profiles.map(async profile => {
+    const folderName = `crew-${profile.crew}`;
+    const folder = path.join(profilesDirectory, folderName);
+    const images = (await readdir(folder, { withFileTypes: true }))
+      .filter(entry => entry.isFile() && supportedCatImageExtensions.has(path.extname(entry.name).toLowerCase()))
+      .map(entry => entry.name)
+      .sort((left, right) => left.localeCompare(right, "en", { numeric: true, sensitivity: "base" }))
+      .map(fileName => ({
+        src: `/assets/img/cats/profiles/${folderName}/${encodeURIComponent(fileName)}`,
+        alt: profile.name
+      }));
+
+    if (!images.length) throw new Error(`No profile images found in ${path.relative(root, folder)}`);
+    return { ...profile, images };
+  }));
+}
+
 async function validateLinks() {
   const missing = [];
   const htmlFiles = await walk(output, ".html");
@@ -103,7 +124,7 @@ async function validateLinks() {
 }
 
 export async function build() {
-  await rm(output, { recursive: true, force: true });
+  await rm(output, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   await mkdir(output, { recursive: true });
 
   await cp(path.join(root, "src", "pages"), output, { recursive: true });
@@ -111,7 +132,9 @@ export async function build() {
   await cp(path.join(root, "src", "scripts"), path.join(output, "scripts"), { recursive: true });
   await cp(path.join(root, "assets", "img"), path.join(output, "assets", "img"), { recursive: true });
 
-  const catProfiles = parseCatProfiles(await readFile(path.join(root, "CAT_PROFILES.md"), "utf8"));
+  const catProfiles = await attachCatProfileImages(
+    parseCatProfiles(await readFile(path.join(root, "CAT_PROFILES.md"), "utf8"))
+  );
   await writeFile(
     path.join(output, "scripts", "cat-profile-content.js"),
     `window.CAT_PROFILE_CONTENT = ${JSON.stringify(catProfiles, null, 2)};\n`,

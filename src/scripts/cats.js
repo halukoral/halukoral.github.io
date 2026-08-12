@@ -2,22 +2,12 @@ const space = document.querySelector(".cat-space");
 const stage = document.querySelector(".cat-stage");
 const profileSlot = document.querySelector(".cat-profile-slot");
 
-const profileGalleries = [
-  [{ src: "/assets/img/cats/profiles/crew-01.jpg", alt: "Goffy" }],
-  [{ src: "/assets/img/cats/profiles/crew-02.jpg", alt: "Meraklı" }],
-  [{ src: "/assets/img/cats/profiles/crew-03.jpg", alt: "Sunny-son" }],
-  [{ src: "/assets/img/cats/profiles/crew-04.jpg", alt: "Gıcırdak" }],
-  [{ src: "/assets/img/cats/profiles/crew-05.jpg", alt: "Nane" }],
-  [{ src: "/assets/img/cats/profiles/crew-06.jpg", alt: "Sunny" }]
-];
-
 const profileContent = Array.isArray(window.CAT_PROFILE_CONTENT) ? window.CAT_PROFILE_CONTENT : [];
-const profiles = profileContent.map((profile, index) => ({
-  ...profile,
-  images: profileGalleries[index] ?? []
-}));
+const profiles = profileContent;
 
-if (profiles.length !== 6) throw new Error("Cat profile content could not be loaded.");
+if (profiles.length !== 6 || profiles.some(profile => !profile.images?.length)) {
+  throw new Error("Cat profile content could not be loaded.");
+}
 
 if (space && stage && profileSlot) {
   const cats = [...space.querySelectorAll(".space-cat")];
