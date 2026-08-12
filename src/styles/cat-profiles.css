@@ -34,7 +34,6 @@
 
 .cat-stage .cat-space {
   width: 100%;
-  transition: width 0.35s ease;
 }
 
 .cat-profile-slot {
@@ -59,8 +58,10 @@
 
 .cat-profile-panel {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  max-height: 720px;
+  height: 100%;
   overflow: hidden;
   border: 1px solid #7ad7ff4d;
   border-radius: 18px;
@@ -70,21 +71,78 @@
   pointer-events: auto;
 }
 
-.cat-profile-panel > img {
+.cat-profile-gallery {
+  position: relative;
+  flex: 0 0 260px;
+  min-height: 0;
+  overflow: hidden;
+  background: #05070d;
+}
+
+.cat-profile-image {
   display: block;
   width: 100%;
-  height: 220px;
+  height: 100%;
   object-fit: contain;
   object-position: center;
-  background: #05070d;
+}
+
+.cat-gallery-button {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 44px;
+  border: 1px solid #ffffff2b;
+  border-radius: 12px;
+  color: #fff;
+  background: #05070dcc;
+  box-shadow: 0 8px 24px #00000066;
+  cursor: pointer;
+  transform: translateY(-50%);
+  font: 28px/1 sans-serif;
+}
+
+.cat-gallery-button:hover,
+.cat-gallery-button:focus-visible {
+  border-color: #7ad7ff99;
+  background: #14202de6;
+}
+
+.cat-gallery-previous {
+  left: 12px;
+}
+
+.cat-gallery-next {
+  right: 12px;
+}
+
+.cat-gallery-count {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  padding: 5px 8px;
+  border: 1px solid #ffffff24;
+  border-radius: 999px;
+  color: #d9e5eb;
+  background: #05070dcc;
+  letter-spacing: 0.08em;
+  font: 9px/1 monospace;
 }
 
 .cat-profile-copy {
   position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
   padding: 20px;
 }
 
 .cat-profile-copy > span {
+  flex: none;
   color: var(--cyan);
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -92,6 +150,7 @@
 }
 
 .cat-profile-copy h2 {
+  flex: none;
   margin: 9px 0 10px;
   color: var(--ink);
   letter-spacing: -0.035em;
@@ -106,7 +165,8 @@
 }
 
 .cat-profile-description {
-  max-height: 260px;
+  flex: 1;
+  min-height: 0;
   padding-right: 6px;
   overflow-y: auto;
   scrollbar-color: #7ad7ff66 transparent;
@@ -140,6 +200,16 @@
   background: #7ad7ff14;
 }
 
+@media (max-width: 900px) {
+  .cat-profile-slot {
+    height: 660px;
+  }
+
+  .cat-profile-gallery {
+    flex-basis: 230px;
+  }
+}
+
 @media (max-width: 860px) {
   .cat-stage,
   .cat-stage.is-profile-open {
@@ -151,44 +221,29 @@
 
   .cat-profile-slot {
     width: 100%;
-    height: 0;
   }
 
   .cat-stage.is-profile-open {
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 660px;
     gap: 16px;
-  }
-
-  .cat-stage.is-profile-open .cat-profile-slot {
-    height: auto;
-  }
-
-  .cat-profile-panel {
-    display: grid;
-    grid-template-columns: minmax(180px, 34%) minmax(0, 1fr);
-    max-height: none;
-  }
-
-  .cat-profile-panel > img {
-    height: 100%;
-    min-height: 250px;
-  }
-
-  .cat-profile-description {
-    max-height: 250px;
   }
 }
 
 @media (max-width: 620px) {
+  .cat-profile-slot {
+    height: 575px;
+  }
+
+  .cat-stage.is-profile-open {
+    grid-template-rows: auto 575px;
+  }
+
   .cat-profile-panel {
-    display: block;
-    width: 100%;
     border-radius: 14px;
   }
 
-  .cat-profile-panel > img {
-    height: 170px;
-    min-height: 0;
+  .cat-profile-gallery {
+    flex-basis: 190px;
   }
 
   .cat-profile-copy {
@@ -204,10 +259,6 @@
     font-size: 10px;
   }
 
-  .cat-profile-description {
-    max-height: 240px;
-  }
-
   .cat-profile-close {
     top: 10px;
     right: 10px;
@@ -217,6 +268,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .cat-stage,
+  .cat-profile-slot,
   .cat-profile-panel {
     transition: none;
   }
