@@ -1,4 +1,5 @@
 import { copyFile, cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -135,9 +136,22 @@ export async function build() {
   const catProfiles = await attachCatProfileImages(
     parseCatProfiles(await readFile(path.join(root, "CAT_PROFILES.md"), "utf8"))
   );
+  const catProfileContent = `window.CAT_PROFILE_CONTENT = ${JSON.stringify(catProfiles, null, 2)};\n`;
+  const catProfileVersion = createHash("sha256").update(catProfileContent).digest("hex").slice(0, 12);
   await writeFile(
     path.join(output, "scripts", "cat-profile-content.js"),
-    `window.CAT_PROFILE_CONTENT = ${JSON.stringify(catProfiles, null, 2)};\n`,
+    catProfileContent,
+    "utf8"
+  );
+
+  const catsPage = path.join(output, "cats", "index.html");
+  const catsHtml = await readFile(catsPage, "utf8");
+  await writeFile(
+    catsPage,
+    catsHtml.replace(
+      "/scripts/cat-profile-content.js",
+      `/scripts/cat-profile-content.js?v=${catProfileVersion}`
+    ),
     "utf8"
   );
 

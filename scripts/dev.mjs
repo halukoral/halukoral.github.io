@@ -3,7 +3,6 @@ import { stat, watch } from "node:fs/promises";
 import http from "node:http";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { build } from "./build.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const output = path.join(root, "dist");
@@ -28,6 +27,7 @@ async function rebuild() {
 
   building = true;
   try {
+    const { build } = await import(`./build.mjs?v=${Date.now()}`);
     await build();
   } catch (error) {
     console.error(error.message);
