@@ -138,6 +138,14 @@ export async function build() {
   );
   const catProfileContent = `window.CAT_PROFILE_CONTENT = ${JSON.stringify(catProfiles, null, 2)};\n`;
   const catProfileVersion = createHash("sha256").update(catProfileContent).digest("hex").slice(0, 12);
+  const catsScriptVersion = createHash("sha256")
+    .update(await readFile(path.join(output, "scripts", "cats.js")))
+    .digest("hex")
+    .slice(0, 12);
+  const catsStyleVersion = createHash("sha256")
+    .update(await readFile(path.join(output, "styles", "cat-profiles.css")))
+    .digest("hex")
+    .slice(0, 12);
   await writeFile(
     path.join(output, "scripts", "cat-profile-content.js"),
     catProfileContent,
@@ -145,13 +153,16 @@ export async function build() {
   );
 
   const catsPage = path.join(output, "cats", "index.html");
-  const catsHtml = await readFile(catsPage, "utf8");
-  await writeFile(
-    catsPage,
-    catsHtml.replace(
+  const catsHtml = (await readFile(catsPage, "utf8"))
+    .replace("/styles/cat-profiles.css", `/styles/cat-profiles.css?v=${catsStyleVersion}`)
+    .replace("/scripts/cats.js", `/scripts/cats.js?v=${catsScriptVersion}`)
+    .replace(
       "/scripts/cat-profile-content.js",
       `/scripts/cat-profile-content.js?v=${catProfileVersion}`
-    ),
+    );
+  await writeFile(
+    catsPage,
+    catsHtml,
     "utf8"
   );
 

@@ -16,6 +16,8 @@ if (space && stage && profileSlot) {
   const animationTimers = new Set();
   let activeCat = null;
   let panel = null;
+  let imageLightbox = null;
+  let imageLightboxReturnFocus = null;
   let resizeSnapshot = null;
   let resizeTimer = null;
   let lastSpaceSize = { width: space.clientWidth, height: space.clientHeight };
@@ -165,7 +167,55 @@ if (space && stage && profileSlot) {
     });
   }
 
+  function closeImageLightbox({ restoreFocus = true } = {}) {
+    if (!imageLightbox) return;
+    const returnFocus = imageLightboxReturnFocus;
+    imageLightbox.remove();
+    imageLightbox = null;
+    imageLightboxReturnFocus = null;
+    document.body.classList.remove("cat-image-lightbox-open");
+    if (restoreFocus && returnFocus?.isConnected) returnFocus.focus();
+  }
+
+  function openImageLightbox(sourceImage) {
+    closeImageLightbox({ restoreFocus: false });
+    imageLightboxReturnFocus = sourceImage;
+
+    const overlay = document.createElement("div");
+    overlay.className = "cat-image-lightbox";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.setAttribute("aria-label", `Enlarged image of ${sourceImage.alt}`);
+
+    const dismiss = document.createElement("button");
+    dismiss.type = "button";
+    dismiss.className = "cat-image-lightbox-dismiss";
+    dismiss.setAttribute("aria-label", "Close enlarged image");
+
+    const enlargedImage = document.createElement("img");
+    enlargedImage.className = "cat-image-lightbox-image";
+    enlargedImage.src = sourceImage.currentSrc || sourceImage.src;
+    enlargedImage.alt = sourceImage.alt;
+
+    const hint = document.createElement("span");
+    hint.className = "cat-image-lightbox-hint";
+    hint.textContent = "Click image to close";
+
+    dismiss.append(enlargedImage);
+    overlay.append(dismiss, hint);
+    dismiss.addEventListener("click", () => closeImageLightbox());
+    overlay.addEventListener("click", event => {
+      if (event.target === overlay) closeImageLightbox();
+    });
+
+    document.body.append(overlay);
+    document.body.classList.add("cat-image-lightbox-open");
+    imageLightbox = overlay;
+    dismiss.focus();
+  }
+
   function closeProfile() {
+    closeImageLightbox({ restoreFocus: false });
     if (activeCat) activeCat.setAttribute("aria-expanded", "false");
     panel?.remove();
     if (stage.classList.contains("is-profile-open")) beginSpaceResize();
@@ -182,6 +232,7 @@ if (space && stage && profileSlot) {
     }
 
     const stageWasOpen = stage.classList.contains("is-profile-open");
+    closeImageLightbox({ restoreFocus: false });
     if (activeCat) activeCat.setAttribute("aria-expanded", "false");
     panel?.remove();
     if (!stageWasOpen) beginSpaceResize();
@@ -222,7 +273,18 @@ if (space && stage && profileSlot) {
     `;
 
     const description = panel.querySelector(".cat-profile-description");
+    const profileImage = panel.querySelector(".cat-profile-image");
     const languageButtons = [...panel.querySelectorAll(".cat-language-button")];
+    profileImage.tabIndex = 0;
+    profileImage.setAttribute("role", "button");
+    profileImage.setAttribute("aria-label", `Enlarge image of ${profile.name}`);
+    profileImage.addEventListener("click", () => openImageLightbox(profileImage));
+    profileImage.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openImageLightbox(profileImage);
+      }
+    });
     const showLanguage = language => {
       description.lang = language;
       description.innerHTML = profile.paragraphs[language].map(paragraph => `<p>${paragraph}</p>`).join("");
@@ -237,12 +299,12 @@ if (space && stage && profileSlot) {
 
     if (hasMultipleImages) {
       let imageIndex = 0;
-      const image = panel.querySelector(".cat-profile-image");
       const count = panel.querySelector(".cat-gallery-count");
       const showImage = nextIndex => {
         imageIndex = (nextIndex + profile.images.length) % profile.images.length;
-        image.src = profile.images[imageIndex].src;
-        image.alt = `${profile.images[imageIndex].alt}, Crew ${crew}, image ${imageIndex + 1} of ${profile.images.length}`;
+        profileImage.src = profile.images[imageIndex].src;
+        profileImage.alt = `${profile.images[imageIndex].alt}, Crew ${crew}, image ${imageIndex + 1} of ${profile.images.length}`;
+        profileImage.setAttribute("aria-label", `Enlarge image ${imageIndex + 1} of ${profile.images.length} of ${profile.name}`);
         count.textContent = `${imageIndex + 1} / ${profile.images.length}`;
       };
       panel.querySelector(".cat-gallery-previous").addEventListener("click", () => showImage(imageIndex - 1));
@@ -266,7 +328,9 @@ if (space && stage && profileSlot) {
   });
 
   document.addEventListener("keydown", event => {
-    if (event.key === "Escape") closeProfile();
+    if (event.key !== "Escape") return;
+    if (imageLightbox) closeImageLightbox();
+    else closeProfile();
   });
 
   const spaceObserver = new ResizeObserver(() => {
