@@ -141,12 +141,55 @@
   padding: 20px;
 }
 
-.cat-profile-copy > span {
+.cat-profile-header {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 28px;
+  padding-right: 36px;
+}
+
+.cat-profile-kicker {
   flex: none;
   color: var(--cyan);
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font: 9px/1 monospace;
+}
+
+.cat-profile-language {
+  display: inline-flex;
+  flex: none;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #ffffff08;
+}
+
+.cat-language-button {
+  min-width: 30px;
+  padding: 5px 7px;
+  border: 0;
+  border-radius: 999px;
+  color: #8d96a3;
+  background: transparent;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  font: 9px/1 monospace;
+}
+
+.cat-language-button:hover,
+.cat-language-button:focus-visible {
+  color: #fff;
+  background: #7ad7ff14;
+}
+
+.cat-language-button[aria-pressed="true"] {
+  color: #061018;
+  background: var(--cyan);
 }
 
 .cat-profile-copy h2 {
@@ -248,6 +291,21 @@
 
   .cat-profile-copy {
     padding: 15px;
+  }
+
+  .cat-profile-header {
+    gap: 8px;
+    padding-right: 30px;
+  }
+
+  .cat-profile-kicker {
+    font-size: 8px;
+  }
+
+  .cat-language-button {
+    min-width: 28px;
+    padding: 5px 6px;
+    font-size: 8px;
   }
 
   .cat-profile-copy h2 {

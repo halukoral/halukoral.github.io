@@ -32,6 +32,52 @@ function resolveLocalReference(reference) {
   return path.extname(target) ? target : path.join(target, "index.html");
 }
 
+function parseParagraphs(block) {
+  return block
+    .trim()
+    .split(/\r?\n\s*\r?\n/)
+    .map(paragraph => paragraph.replace(/\r?\n/g, " ").trim())
+    .filter(Boolean);
+}
+
+function parseCatProfiles(markdown) {
+  const profiles = markdown
+    .split(/^## /m)
+    .slice(1)
+    .map(section => {
+      const newline = section.indexOf("\n");
+      const heading = section.slice(0, newline).trim();
+      const body = section.slice(newline + 1);
+      const headingMatch = heading.match(/^(.+) \(Crew (\d{2})\)$/);
+      if (!headingMatch) throw new Error(`Invalid cat profile heading: ${heading}`);
+
+      const englishMarker = "### English";
+      const turkishMarker = "### Türkçe";
+      const englishStart = body.indexOf(englishMarker);
+      const turkishStart = body.indexOf(turkishMarker);
+      if (englishStart < 0 || turkishStart < 0 || turkishStart < englishStart) {
+        throw new Error(`Missing language sections for Crew ${headingMatch[2]}`);
+      }
+
+      const en = parseParagraphs(body.slice(englishStart + englishMarker.length, turkishStart));
+      const tr = parseParagraphs(body.slice(turkishStart + turkishMarker.length));
+      if (!en.length || !tr.length) throw new Error(`Empty language section for Crew ${headingMatch[2]}`);
+
+      return {
+        crew: headingMatch[2],
+        name: headingMatch[1],
+        paragraphs: { en, tr }
+      };
+    });
+
+  const crewIds = profiles.map(profile => profile.crew).join(",");
+  if (crewIds !== "01,02,03,04,05,06") {
+    throw new Error(`Expected Crew 01–06 in CAT_PROFILES.md, received: ${crewIds}`);
+  }
+
+  return profiles;
+}
+
 async function validateLinks() {
   const missing = [];
   const htmlFiles = await walk(output, ".html");
@@ -64,6 +110,13 @@ export async function build() {
   await cp(path.join(root, "src", "styles"), path.join(output, "styles"), { recursive: true });
   await cp(path.join(root, "src", "scripts"), path.join(output, "scripts"), { recursive: true });
   await cp(path.join(root, "assets", "img"), path.join(output, "assets", "img"), { recursive: true });
+
+  const catProfiles = parseCatProfiles(await readFile(path.join(root, "CAT_PROFILES.md"), "utf8"));
+  await writeFile(
+    path.join(output, "scripts", "cat-profile-content.js"),
+    `window.CAT_PROFILE_CONTENT = ${JSON.stringify(catProfiles, null, 2)};\n`,
+    "utf8"
+  );
 
   for (const file of ["favicon.svg", "file.svg", "globe.svg", "window.svg", "og.png", "og-en.png", "og-fab.png"]) {
     const source = path.join(root, file);
