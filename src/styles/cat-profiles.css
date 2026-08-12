@@ -1,3 +1,39 @@
+.cats-heading > p.cats-intro {
+  color: #aeb3bd;
+  max-width: 500px;
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.cats-heading > p.cats-profile-hint {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+  gap: 9px;
+  max-width: none;
+  margin: 0 0 4px;
+  padding: 9px 13px;
+  border: 1px solid #7ad7ff40;
+  border-radius: 999px;
+  color: var(--cyan);
+  background: #7ad7ff0a;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font: 9px/1.4 monospace;
+}
+
+.cats-profile-hint span {
+  display: grid;
+  place-items: center;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #7ad7ff66;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 1;
+}
+
 .space-cat {
   cursor: pointer;
   outline: none;
@@ -319,6 +355,10 @@ body.cat-image-lightbox-open {
 }
 
 @media (max-width: 860px) {
+  .cats-heading > p.cats-profile-hint {
+    justify-self: start;
+  }
+
   .cat-stage,
   .cat-stage.is-profile-open {
     grid-template-columns: minmax(0, 1fr);
@@ -338,6 +378,10 @@ body.cat-image-lightbox-open {
 }
 
 @media (max-width: 620px) {
+  .cats-heading > p.cats-intro {
+    font-size: 16px;
+  }
+
   .cat-profile-slot {
     height: 575px;
   }
