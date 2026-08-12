@@ -26,11 +26,11 @@ Ağzına et verseniz, “Beni zehirlemeye çalışıyorsunuz!” diye düşünü
 
 ### English
 
-The one and only alpha of the house—and the only cat who either does not know her name or knows it perfectly well and simply refuses to respond.
+The one and only alpha of the house—and the only cat who either does not know his name or knows it perfectly well and simply refuses to respond.
 
-She is extremely attached to her dad, but she should never be made angry. Whenever she gets upset, she finds whichever cat happens to be closest and beats them up.
+He is extremely attached to his dad, but he should never be made angry. Whenever he gets upset, he finds whichever cat happens to be closest and beats them up.
 
-She is afraid of absolutely nothing and lives entirely in the moment. When she gets angry, she has to take it out on someone. In other words, she never keeps her troubles or frustration bottled up inside.
+He is afraid of absolutely nothing and lives entirely in the moment. When he gets angry, he has to take it out on someone. In other words, he never keeps his troubles or frustration bottled up inside.
 
 ### Türkçe
 
@@ -88,11 +88,11 @@ Hiç kimseyi ayırt etmeden herkesi yalar ve yanlarına yatıp onlara eşlik ede
 
 ### English
 
-The smartest of them all. Sometimes we catch her secretly solving calculus problems.
+The smartest of them all. Sometimes we catch him secretly solving calculus problems.
 
-If Nane is focused on a particular spot or trying to tell you something, she should always be taken seriously—she never speaks without a reason. There is definitely a bug, a piece of food, an interesting smell… In short, there is always something.
+If Nane is focused on a particular spot or trying to tell you something, he should always be taken seriously—he never speaks without a reason. There is definitely a bug, a piece of food, an interesting smell… In short, there is always something.
 
-Her favorite activity is licking you for hours. Be warned, though: Her tongue feels like sandpaper, and prolonged licking may result in the loss of several layers of skin!
+His favorite activity is licking you for hours. Be warned, though: His tongue feels like sandpaper, and prolonged licking may result in the loss of several layers of skin!
 
 ### Türkçe
 
