@@ -535,12 +535,12 @@ h1,h2,h3,p {
   margin-top:0
 }
 
-.hero h1 {
+.hero-title {
   letter-spacing:-.066em;
   max-width:760px;
   margin-bottom:28px;
-  font-size:clamp(58px,7.2vw,104px);
-  line-height:.9
+  font-size:clamp(46px,5.5vw,78px);
+  line-height:.96
 }
 
 .hero-lede {
@@ -880,12 +880,12 @@ h1,h2,h3,p {
   font:11px/1 monospace
 }
 
-.about h2 {
+.about-title {
   letter-spacing:-.05em;
   max-width:900px;
   margin-bottom:52px;
-  font-size:clamp(40px,5vw,70px);
-  line-height:1.02
+  font-size:clamp(32px,3.8vw,52px);
+  line-height:1.08
 }
 
 .about-columns {
@@ -1066,11 +1066,11 @@ footer {
   display:grid
 }
 
-.fab-hero h1 {
+.fab-page-title {
   letter-spacing:-.08em;
   margin:0;
-  font-size:clamp(80px,13vw,180px);
-  line-height:.72
+  font-size:clamp(60px,9vw,120px);
+  line-height:.82
 }
 
 .fab-hero-grid>div>p {
@@ -2251,8 +2251,8 @@ footer {
     padding:9px 11px
   }
 
-  .hero h1 {
-    font-size:56px
+  .hero-title {
+    font-size:44px
   }
 
   .hero-lede {
@@ -2353,8 +2353,8 @@ footer {
     padding-top:80px
   }
 
-  .fab-hero h1 {
-    font-size:88px
+  .fab-page-title {
+    font-size:64px
   }
 
   .fab-row {
