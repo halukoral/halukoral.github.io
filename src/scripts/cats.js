@@ -1,4 +1,6 @@
 const space = document.querySelector(".cat-space");
+const stage = document.querySelector(".cat-stage");
+const profileSlot = document.querySelector(".cat-profile-slot");
 
 const profiles = [
   {
@@ -56,10 +58,11 @@ const profiles = [
   }
 ];
 
-if (space) {
+if (space && stage && profileSlot) {
   const cats = [...space.querySelectorAll(".space-cat")];
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const animations = new Set();
+  const animationTimers = new Set();
   let activeCat = null;
   let panel = null;
 
@@ -120,18 +123,31 @@ if (space) {
     };
   }
 
-  function positionPanel() {
-    if (!panel) return;
+  function layoutCats() {
+    animationTimers.forEach(timer => window.clearTimeout(timer));
+    animationTimers.clear();
+    animations.forEach(animation => animation.cancel());
+    animations.clear();
 
-    const margin = window.innerWidth <= 620 ? 10 : 16;
-    const left = Math.max(margin, space.clientWidth - panel.offsetWidth - margin);
-    const top = margin;
-    panel.style.transform = `translate3d(${left}px, ${top}px, 0)`;
+    cats.forEach((cat, index) => {
+      const start = startingPoint(cat, index);
+      cat.style.transform = `translate3d(${start.x}px, ${start.y}px, 0) rotate(${start.rotation}deg)`;
+
+      if (!reducedMotion) {
+        const timer = window.setTimeout(() => {
+          animationTimers.delete(timer);
+          animateCat(cat, start);
+        }, 220 + 170 * index);
+        animationTimers.add(timer);
+      }
+    });
   }
 
   function closeProfile() {
     if (activeCat) activeCat.setAttribute("aria-expanded", "false");
     panel?.remove();
+    stage.classList.remove("is-profile-open");
+    profileSlot.setAttribute("aria-hidden", "true");
     activeCat = null;
     panel = null;
   }
@@ -164,15 +180,12 @@ if (space) {
       </div>
     `;
     panel.querySelector("button").addEventListener("click", closeProfile);
-    space.append(panel);
-    positionPanel();
+    profileSlot.append(panel);
+    profileSlot.setAttribute("aria-hidden", "false");
+    stage.classList.add("is-profile-open");
   }
 
   cats.forEach((cat, index) => {
-    const start = startingPoint(cat, index);
-    cat.style.transform = `translate3d(${start.x}px, ${start.y}px, 0) rotate(${start.rotation}deg)`;
-    if (!reducedMotion) window.setTimeout(() => animateCat(cat, start), 220 + 170 * index);
-
     cat.addEventListener("click", () => openProfile(cat, index));
     cat.addEventListener("keydown", event => {
       if (event.key === "Enter" || event.key === " ") {
@@ -186,5 +199,11 @@ if (space) {
     if (event.key === "Escape") closeProfile();
   });
 
-  window.addEventListener("resize", positionPanel);
+  stage.addEventListener("transitionend", event => {
+    if (event.target === stage && event.propertyName.startsWith("grid-template")) {
+      layoutCats();
+    }
+  });
+
+  layoutCats();
 }
