@@ -864,13 +864,20 @@ h1,h2,h3,p {
   aspect-ratio:1;
   border:1px solid var(--line);
   width:126px;
-  color:var(--cyan);
-  background:radial-gradient(circle at 35% 35%,#7ad7ff40,#0000 35%),#0d0f16;
   border-radius:50%;
-  place-items:center;
-  font-size:34px;
-  font-weight:700;
-  display:grid
+  background:#0d0f16;
+  position:relative;
+  overflow:hidden
+}
+
+.portrait-placeholder img {
+  width:180%;
+  max-width:none;
+  height:auto;
+  position:absolute;
+  top:-18%;
+  left:50%;
+  transform:translateX(-50%)
 }
 
 .about-kicker {

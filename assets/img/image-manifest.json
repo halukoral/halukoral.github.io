@@ -1903,6 +1903,22 @@
       }
     ]
   },
+  "/assets/img/haluk-oral.jpg": {
+    "width": 3024,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/assets/img/optimized/haluk-oral.jpg.640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "/assets/img/optimized/haluk-oral.jpg.1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
   "/assets/img/hasterza-showcase.jpg": {
     "width": 1600,
     "height": 900,
