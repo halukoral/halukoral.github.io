@@ -28,6 +28,7 @@
   position: absolute;
   z-index: 30;
   width: 270px;
+  max-height: calc(100% - 20px);
   overflow: hidden;
   border: 1px solid #7ad7ff4d;
   border-radius: 18px;
@@ -70,6 +71,18 @@
   color: #9ea5b1;
   font-size: 12px;
   line-height: 1.6;
+}
+
+.cat-profile-description {
+  max-height: 260px;
+  padding-right: 6px;
+  overflow-y: auto;
+  scrollbar-color: #7ad7ff66 transparent;
+  scrollbar-width: thin;
+}
+
+.cat-profile-description p + p {
+  margin-top: 12px;
 }
 
 .cat-profile-close {
@@ -116,6 +129,10 @@
 
   .cat-profile-copy p {
     font-size: 10px;
+  }
+
+  .cat-profile-description {
+    max-height: 240px;
   }
 
   .cat-profile-close {
